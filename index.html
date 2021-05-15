@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taschenrechner</title>
+</head>
+<body>
+    <div id="calculator" class="container grid">
+        <div class="calculator-display">
+            <span id="calculator-display-text">0</span>
+        </div>
+        <!-- 1st Row -->
+        <div id="btn-clear" class="btn">
+            <span>C</span>
+        </div>
+        <div id="btn-del" class="btn">
+            <span>Del</span>
+        </div>
+        <div id="btn-pct" class="btn" data-operator="%">
+            <span>%</span>
+        </div>
+        <div id="btn-div" class="btn operator" data-operator="/">
+            <span>/</span>
+        </div>
+        <!-- 2nd Row -->
+        <div class="btn number" data-number="7">
+            7
+        </div>
+        <div class="btn number" data-number="8">
+            8
+        </div>
+        <div class="btn number" data-number="9">
+            9
+        </div>
+        <div id="btn-multi"class="btn operator" data-operator="*">
+            x
+        </div>
+        <!-- 3rd Row -->
+        <div class="btn number" data-number="4">
+            4
+        </div>
+        <div class="btn number" data-number="5">
+            5
+        </div>
+        <div class="btn number" data-number="6">
+            6
+        </div>
+        <div id="btn-sub" class="btn operator" data-operator="-">
+            -
+        </div>
+        <!-- 4th Row -->
+        <div class="btn number" data-number="1">
+            1
+        </div>
+        <div class="btn number" data-number="2">
+            2
+        </div>
+        <div class="btn number" data-number="3">
+            3
+        </div>
+        <div id="btn-add" class="btn operator" data-operator="+">
+            +
+        </div>
+         <!-- 5th Row -->
+         <div class="btn number grid-span-2" data-number="0">
+            0
+        </div>
+        <div id="btn-comma" class="btn">
+            .
+        </div>
+        <div id="btn-eq" class="btn operator">
+            =
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
